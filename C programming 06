@@ -1,0 +1,11 @@
+//Convert Ascci value to Number 
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     printf("Enter Your Ascci : ");
+//     scanf("%c",&a);
+//     printf("your ascii number is : %d\n",a);
+
+// }
