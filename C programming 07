@@ -1,0 +1,49 @@
+//lowercase to uppercase convert without library function - 01
+
+// #include<stdio.h>
+// int main()
+// {
+//      char a;
+//      printf("Enter Your lowercase Letter: ");
+//      scanf("%c",&a);
+//      printf("Your Uppercase Value is : %c\n",a-32);
+
+// }
+
+//uppercase to lowercase convert without library function - 02
+
+// #include<stdio.h>
+// int main()
+// {
+//     char a;
+//     printf("Enter You uppercase letter: %c",a);
+//     scanf("%c",&a);
+//     printf("Your Lowercase Number is: %c\n",a+32);
+// }
+
+
+//lower to upper convert using library function - 03
+
+// #include<stdio.h>
+// int main()
+// {
+//     char a,b;
+//     printf("Enter Your lowercase letter : %c",a);
+//     scanf("%c",&a);
+    
+//     b = toupper(a);
+//     printf("Your Upper Numbr is : %c\n",b);
+
+// }
+
+//upper to lower convert using library function - 04
+
+// #include<stdio.h>
+// int main()
+// {
+//     char a,b;
+//     printf("Enter Your Uppercase letter : ");
+//     scanf("%c",&a);
+//     b = tolower(a);
+//     printf("Your Lowercase Number is : %c\n",b);
+// }
