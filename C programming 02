@@ -1,0 +1,52 @@
+//C Veriable and i am print the veriable 
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a = 10;
+//     int b = 20;
+//     printf("Your Number is %d\n",a);
+//     printf("Your Number is %d\n",b);
+// }
+
+//one line ten int value print the c programming 
+
+// #include<stdio.h>
+// int main()
+// {
+//    int num = 10, num2 = 20, num3 = 30, num4 = 40, num5 = 50, num6 = 60, num7 = 70, 
+//    num8 = 80, num9 = 90, num10 = 100;
+//    printf("Enter The number %d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n",num,num2,num3,num4,num5,num6,num7,num8,num9,num10); 
+// }
+
+//int, float, double, char
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     float b;
+//     double c;
+//     char d;
+    
+//     a = 10;
+//     b = 20.54;
+//     c = 30.212145;
+//     d = 'H';
+
+//     printf("Enter Int Number : %d\n",a);
+//     printf("Enter Float Number : %f\n",b);
+//     printf("Enter double Number : %lf\n",c);
+//     printf("Enter char charcter : %c\n",d);
+// }
+
+// input float for user 
+
+// #include<stdio.h>
+// int main()
+// {   
+//     float user;
+//     printf("Enter Your Number : ");
+//     scanf("%f",&user);
+//     printf("Your Number is : %.2f\n",user);
+// }
