@@ -1,0 +1,10 @@
+//The ASCII value in c programing
+
+#include<stdio.h>
+int main()
+{ 
+    int a;
+    printf("Enter Your ASCII value : ");
+    scanf("%d",&a);
+    printf("Your Ascii value is : %c\n",a);
+}
