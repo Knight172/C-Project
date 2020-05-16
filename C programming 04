@@ -1,0 +1,15 @@
+//Size o int, float, double,char in c 
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    float b;
+    double c;
+    char d;
+
+    printf("Your Intiger value: %d bytes\n",sizeof(a));
+    printf("Your Float value: %d bytes\n",sizeof(b));
+    printf("your double value: %d bytes\n",sizeof(c));
+    printf("your char value is: %d bytes\n",sizeof(d));
+}
