@@ -1,0 +1,72 @@
+//printf and scanf learning
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     printf("It is you number: %d\n",a);
+// }
+
+//2 value is print 
+// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     int b;
+//     printf("Enter Your First Number: ");
+//     scanf("%d",&a);
+//     printf("your first number is here: %d\n",a);
+//     printf("Enter Your Second Number : ");
+//     scanf("%d",&b);
+//     printf("your second number is here: %d\n",b);
+// }
+
+
+//print the value in the c 
+
+// #include<stdio.h>
+// int main()
+// {
+//     int number1;
+//     int number2;
+//     printf("Enter Your 1st Number : ");
+//     scanf("%d",&number1);
+//     printf("Enter Your 2nd Number : ");
+//     scanf("%d",&number2);
+//     printf(".....................................");
+//     printf("\nYou First Number is here %d",number1);
+//     printf("\nYou Second Number is here %d\n",number2);
+// }
+
+//printf and scanf float number print 
+
+// #include<stdio.h>
+// int main()
+// {
+//     float Number1;
+//     float Number2;
+
+//     printf("Enter Your 1st Float Number : ");
+//     scanf("%f",&Number1);
+//     printf("Enter Your 2nd Float Number : ");
+//     scanf("%f",&Number2);
+//     printf(".....................................");
+//     printf("\nYour 1st Number : %.2f",Number1);
+//     printf("\nYour 2nd Number : %.2f\n",Number2);
+
+// }
+
+//printf and scanf float number print one line 
+
+// #include<stdio.h>
+// int main()
+// {
+//     float num1,num2;
+//     printf("Enter Your 2 Value : ");
+//     scanf("%f %f",&num1,&num2);
+//     printf(".................................");
+//     printf("\nYour 2 value is : %.2f\t%.2f",num1,num2);
+// }
