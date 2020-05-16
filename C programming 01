@@ -1,0 +1,41 @@
+//Now I am print my name my phone number and my home address i hope it you help the project thank you guys
+/*
+My Details:
+---------------------------
+Name: Durjoy Ghosh
+Number: 01735889463
+Address: Dhak,Bangladesh
+*/
+
+// #include<stdio.h>
+// int main()
+// {
+//     printf("Name : Durjoy Ghosh\n");
+//     printf("Number : \v01735889463\n");
+//     printf("Address : Dhaka,Bangladesh\n");
+//     printf('I\'m a good Boy ');
+// }
+
+
+
+/*All Escape sequence
+-----------------------------------------------------------
+*/
+
+// \a 	07 	Alert (Beep, Bell) (added in C89)[1]
+// \b 	08 	Backspace
+// \enote 1 	1B 	Escape character
+// \f 	0C 	Formfeed Page Break
+// \n 	0A 	Newline (Line Feed); see notes below
+// \r 	0D 	Carriage Return
+// \t 	09 	Horizontal Tab
+// \v 	0B 	Vertical Tab
+// \\ 	5C 	Backslash
+// \' 	27 	Apostrophe or single quotation mark
+// \" 	22 	Double quotation mark
+// \? 	3F 	Question mark (used to avoid trigraphs)
+// \nnnnote 2 	any 	The byte whose numerical value is given by nnn interpreted as an octal number
+// \xhh… 	any 	The byte whose numerical value is given by hh… interpreted as a hexadecimal number
+// \uhhhhnote 3 	none 	Unicode code point below 10000 hexadecimal
+// \Uhhhhhhhhnote 4 	none 	Unicode code point where h is a hexadecimal digit 
+
