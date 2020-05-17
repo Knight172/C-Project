@@ -1,0 +1,94 @@
+
+/*Hole   |  Description                                  |  Example            |  Result    | 
+  %d,%i  |  print any interger                           |  printf"%d"5        |   5        |
+  %x,%o  |  print any interger in Hex or octal format    |  printf"%x"255      |   ff       |
+  %s     |  print any string                             |  printf"%s""ABC"    |   ABC      | 
+  %f     |  print any floating-point number              |  printf"%f"1.1M     |   1.100000 |
+  %c     |  print any charcter                           |  printf"%c"'\097'   |   a        |
+  %b     |  print any Boolean                            |  printf"%b"false    |   False    |
+  %o     |  print any object                             |  printf"%0"(1,2)    |   (1,2)    |
+  %A     |  print anything                               |  printf"%A"(1,[])   |   (1,[])   |           
+
+*/
+
+
+
+
+
+//>>Decimal to octal                01
+//------------------------------- 
+
+// #include<stdio.h>
+// int main()
+// {
+//     int number;
+//     printf("Enter Your Decimal Number : ");
+//     scanf("%d",&number);
+//     printf("Your Octal Number is : %o\n",number);
+// }
+
+
+
+
+//>>octal to Decimal                    02
+//---------------------------------
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int number;
+//     printf("Enter Your Octal Number : ");
+//     scanf("%o",&number);
+//     printf("Your Decimal Number is : %d\n",number);
+// }
+
+
+//>>Decimal and hexa-decimal           03
+//---------------------------------
+
+// #include<stdio.h>
+// int main()
+// {
+//     int raj;
+//     printf("Enter Your Decimal Number : ");
+//     scanf("%d",&raj);
+//     printf("Your hexa-decimal Number: %x\n",raj);
+// }
+
+//>>hexa-decimal and Decimal              04
+//--------------------------------
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num;
+//     printf("Enter Your Hexa-decimal Number : ");
+//     scanf("%x",&num);
+//     printf("Your Decimal Number is : %d\n",num);
+// }
+
+//>> octal and hexa-decimal                05
+//------------------------------------
+
+// #include<stdio.h>
+// int main()
+// {
+//     int raj;
+//     printf("Enter Your Octal Value : ");
+//     scanf("%o",&raj);
+//     printf("Your Hexa_Decimal Number is : %x\n",raj);
+// }
+
+
+//>>hexa-decimal and octal                06
+//---------------------------------
+
+// #include<stdio.h>
+// int main()
+// {
+//     int raj;
+//     printf("Enter Your hexa-decimal Value : ");
+//     scanf("%x",&raj);
+//     printf("Your Octal Is : %o\n",raj);
+// }
