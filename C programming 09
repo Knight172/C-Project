@@ -1,0 +1,58 @@
+//>>2 number sum and avg            01 
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num1,num2,su;
+//     float avg;
+//     printf("Enter Your 2 digit Number : ");
+//     scanf("%d %d",&num1,&num2);
+//     su = num1 + num2;
+//     printf("Your 2 digit Number is : %d\n",su);
+//     avg = (float)su/2;
+//     printf("Your Avg number is : %.1f\n",avg);
+// }
+
+
+//>>Arithmetic Operator (+,-,*,/,%)              02
+
+// #include<stdio.h>
+// int main()
+// {
+//     int sum1,sum2,result;
+//     printf("Enter Your 2 digit Number: ");
+//     scanf("%d %d",&sum1,&sum2);
+//     result = sum1 + sum2;
+//     printf("Your Sum Number is : %d\n",result);
+
+//     result = sum1 - sum2;
+//     printf("Your sub Number is : %d\n",result);
+
+//     result = sum1 * sum2;
+//     printf("Your mul NUmber is : %d\n",result);
+
+//     result = sum1 /sum2;
+//     printf("Your div Number is : %d\n",result);
+
+//     result = sum1 % sum2;
+//     printf("Your Remainder Number is %d\n",result);
+// }
+
+
+//>>1/2 * base * height         03
+
+// #include<stdio.h>
+// int main()
+// {
+//     int base,height;
+//     float result;
+//     printf("Your Base Number: ");
+//     scanf("%d",&base);
+//     printf("Your Height Number: ");
+//     scanf("%d",&height);
+//     result = (float)1/2 * base * height;
+//     printf("Your Result is %f",result);
+// }
+
+
