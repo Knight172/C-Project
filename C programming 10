@@ -1,0 +1,36 @@
+//swap two number without temp value - 01
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int temp;
+//     int num1 = 20;
+//     int num2 = 30;
+    
+//     //value number change without temp value
+
+//     temp = num1;
+//     num1 = num2;
+//     num2 = temp;
+//     printf("num1 %d\n",num1);
+//     printf("num2 %d\n",num2);
+// }
+
+
+
+//swap two number using temp value  - 02
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num1 = 20;
+//     int num2 = 50;
+    
+//     num1 = num1 - num2;
+//     num2 = num1 + num2;
+//     num1 = num2 - num1;
+    
+//     printf("num1 = %d\n",num1);
+//     printf("num2 = %d\n",num2);
+// }
