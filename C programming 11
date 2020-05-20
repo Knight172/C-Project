@@ -1,0 +1,151 @@
+//abs value print in c           01
+
+// #include<stdio.h>
+// void main()
+// {
+//     int result = abs(-458);
+//     printf("Your Value: %d\n",result);
+// }
+
+//sqrt value print in c              02
+
+// #include<stdio.h>
+// int main()
+// {
+//    float result;
+//    result = sqrt(80);
+//    printf("%.2f\n",result);
+// }
+
+//pow value print in c                          03
+
+// #include<stdio.h>
+// int main()
+// {
+//     int result;
+//     result = pow(5,5);
+//     printf("Your Power %d\n",result);
+// }
+
+//2nd
+
+// #include<stdio.h>
+// int main()
+// {
+//     float result;
+//     result = pow(5,5);
+//     printf("Your Power is : %.2f\n",result);
+// }
+
+//3rd
+
+// #include<stdio.h>
+// int main()
+// {
+//     double result;
+//     result = pow(5,5);
+//     printf("Your Result %.2lf\n",result);
+// }
+
+
+//log value print in c           04
+
+// #include<stdio.h>
+// int main()
+// {
+//     float a;
+//     a = log(10.5);
+//     printf("Your log value is : %f\n",a);
+// }
+
+//log10 value print in c          05
+
+// #include<stdio.h>
+// int main()
+// {
+//     float a;
+//     a = log10(10.5);
+//     printf("Your value is : %f\n",a);
+// }
+
+
+//sin value print in c              06
+
+// #include<stdio.h>
+// int main()
+// {
+//     float a;
+//     a = sin(10);
+//     printf("Your sin value is : %f",a);
+// }
+
+
+
+//cos value print in c                    07
+
+// #include<stdio.h>
+// int main()
+// {
+//     double a;
+//     a = cos(10.5);
+//     printf("Your Cos value is : %.2lf",a);
+// }
+
+
+
+//tan value print in c                     08
+
+// #include<stdio.h>
+// int main()
+// {
+//     float x;
+//     x = tan(10);
+//     printf("Your tan value in : %f\n",x);
+// }
+
+
+//round value print in c               09
+
+// #include<stdio.h>
+// int main()
+// {
+//    float a;
+//    a = round(10.502);
+//    printf("Your Round value is: %f\n",a);
+// }
+
+
+//trunc print in c                  10
+
+// #include<stdio.h>
+// int main()
+// {
+//     float a;
+//     a = trunc(10.142);
+//     printf("your trunc value is : %f\n",a);
+// }
+
+
+//ceil value print in c              11
+
+// #include<stdio.h>
+// int main()
+// {
+//     float a;
+//     a = ceil(7.9);
+//     printf("Your ceil value is: %.2f\n",a);
+// }
+
+//floar value print in c                12
+
+// #include<stdio.h>
+// int main()
+// {
+//     float my;
+//     my = floor(5.5);
+//     printf("Your floar value is : %f",my);
+// }
+
+
+
+
