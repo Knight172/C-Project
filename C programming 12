@@ -1,0 +1,204 @@
+//if else in c               01
+//>>a+2==4 printf("Even") And printf("Odd")
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a;
+//     printf("Your Number: ");
+//     scanf("%d",&a);
+//     if(a+2==4)
+//     printf("Even\n");
+//     else
+//     printf("Odd\n");
+    
+// }
+
+
+//if else in c                 02
+//>>>num%2==0 printf("Even") And printf("Odd")
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num;
+//     printf("Your NUmber: ");
+//     scanf("%d",&num);
+//     if(num%2==0)
+//     printf("Even\n");
+//     else
+//     printf("Odd\n");
+    
+// }
+
+
+//if else in c                03
+//>>if(a==10){ printf("Hello Sir");  printf("Good Morning"); } else {printf("Hello Sir") printf("Sorry Not Good Morning")}
+
+// #include<stdio.h>
+// int main()
+// {
+//    int a;
+//    a = 13;
+//    if(a==12)
+//        {
+//        printf("Hello Sir\n");
+//        printf("Good Morning\n");
+//        }
+//     else
+//        {
+//        printf("Hello Sir\n");
+//        printf("Sorry Not Good Morning\n");
+//        }
+// }
+
+
+//if else in c             04
+//>>if(a>b) printf("Your Large Number is %d",a);  else(a<b) printf("Your Large Number is %d",b); 
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num1,num2;
+//     printf("Enter Your 1st Number : ");
+//     scanf("%d",&num1);
+//     printf("Enter Your 2nd Number : ");
+//     scanf("%d",&num2);
+//     if(num1>num2)
+//        printf("Your Larger Number : %d\n",num1);
+//     else if(num1<num2)
+//        printf("Your Large Number  : %d\n",num2);   
+    
+//     else
+//        printf("Your Number is equal\n");
+    
+// }
+
+
+//if else in c            05
+
+// #include<stdio.h>
+// int main()
+// {
+//     int user;
+//     printf("Enter Your Grade: ");
+//     scanf("%d",&user);
+
+//     if(user>=80)
+//     printf("Your Grade is : A+\n");
+//     else if(user>=70)
+//     printf("Your Grade is : A\n");
+//     else if(user>=60)
+//     printf("Your Grade is : A-\n");
+//     else if(user>=50)
+//     printf("Your Grade is : B\n");
+//     else if(user>=40)
+//     printf("Your Grade is : C\n");
+//     else if(user>=33)
+//     printf("Your Grade Is : D\n");
+//     else
+//     printf("You Are Failed");
+// }
+
+
+//if else in c             06
+
+// #include<stdio.h>
+// int main()
+// { 
+//     int a;
+//     printf("Enter Your Number : ");
+//     scanf("%d",&a);
+//     if(a%2==0)
+//        printf("Even\n");
+//     else
+//        printf("Odd\n");
+// }
+
+//if else in c positive/nagitive     07
+
+// #include<stdio.h>
+// void main()
+// {
+//     int num;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&num);
+//     if(num>0)
+//        printf("Possitive\n");
+//     else if(num<0)
+//        printf("Nagitive\n");
+//     else
+//        printf("Your Number is equal\n");
+    
+    
+// }
+
+//if else in c programing           08
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num1,num2;
+//     printf("Enter Your 2 value: ");
+//     scanf("%d %d",&num1,&num2);
+
+//     if(num1>num2)
+//        printf("Your Large Number is : %d\n",num1);
+//     else if(num1<num2)
+//        printf("Your Large Number is : %d\n",num2);
+
+//     else
+//        printf("Your Number is equal\n");
+// }
+
+
+//if else in c programing            09
+
+// #include<stdio.h>
+// int main()
+// {
+//     char letter;
+//     printf("Enter Your Letter: ");
+//     scanf("%c",&letter);
+//     if(letter=='a')
+//         printf("Vowel\n");
+//     else if(letter=='e')
+//         printf("Vowel\n");
+//     else if(letter=='i')
+//         printf("Vowel\n");
+//     else if(letter=='o')
+//         printf("Vowel\n");
+//     else if(letter=='u')
+//         printf("Vowel\n");
+
+//     else
+//         printf("consonent\n");
+// }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     char letter;
+//     printf("Enter Your Letter: ");
+//     scanf("%c",&letter);
+//     if(letter=='a' || letter=='e' || letter=='i' || letter=='o' || letter=='u')
+//         printf("Vowel\n");
+//     else
+//         printf("consonent\n");
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,b,c;
+//     printf("Enter Your 3 Number: ");
+//     scanf("%d %d %d",&a,&b,&c);
+//     if(a>b && a>c)
+//        printf("Large Number: %d\n",a);
+//     else if(b>a && b>c)
+//        printf("Large Number: %d\n",b);
+//     else if(c>a && c>b)
+//        printf("Large Number: %d\n",c);
+       
+// }
