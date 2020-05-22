@@ -1,0 +1,209 @@
+//>>switch keywork : switch, case, break, defult
+
+
+//switch  statement          01
+
+// #include<stdio.h>
+// int main()
+// {
+//    int num;
+//    printf("Enter Your Singel Number: ");
+//    scanf("%d",&num);
+   
+//    switch(num)
+//    {
+//       case 1:
+//          printf("One\n");
+//          break;
+//       case 2:
+//          printf("Two\n");
+//          break;
+//       case 3:
+//          printf("Three\n");
+//          break;
+//       case 4:
+//          printf("Four\n");
+//          break;
+//       case 5:
+//          printf("Five\n");
+//          break;
+//       case 6:
+//          printf("six\n");
+//          break;
+//       case 7:
+//          printf("Seven\n");
+//          break;
+//       case 8:
+//          printf("Eight\n");
+//          break;
+//       case 9: 
+//          printf("Nine\n");
+//          break;
+//       default:
+//          printf("Invilid Number\n");
+//          break;
+//    }
+// }
+
+
+//vowel and consonant in c using switch  02
+//part - 01
+
+// #include<stdio.h>
+// int main()
+// {
+//    char letter;
+//    printf("Enter Your Leter : ");
+//    scanf("%c",&letter);
+//    switch(letter)
+//    {
+//       default:
+//          printf("Consonent\n");
+//          break;
+//       case 'a':
+//          printf("Vowel\n");
+//          break;
+//       case 'A':
+//          printf("Vowel\n");
+//          break;
+//       case 'e':
+//          printf("Vowel\n");
+//          break;
+//       case 'E': 
+//          printf("Vowel\n");
+//          break;
+//       case 'i':
+//          printf("Vowel\n");
+//          break;
+//       case 'I':
+//          printf("Vowel\n");
+//          break;
+//       case 'O':
+//          printf("Vowel\n");
+//          break;
+//       case 'o':
+//          printf("Vowel\n");
+//          break;
+//       case 'U':
+//          printf("Vowel\n");
+//          break;
+//       case 'u':
+//          printf("Vowel\n");
+//          break;
+        
+//    }
+// }
+
+
+//vowel and consonant in c using switch  02
+//part - 02
+
+// #include<stdio.h>
+// int main()
+// {
+//    char letter;
+//    printf("Enter Your Letter: ");
+//    scanf("%c",&letter);
+
+//    switch(letter)
+//    {
+//       case 'a':
+//       case 'e':
+//       case 'i':
+//       case 'o':
+//       case 'u':
+//       case 'A':
+//       case 'E':
+//       case 'I':
+//       case 'O':
+//       case 'U':
+//           printf("Vowel\n");
+//           break;
+//       default:
+//          printf("consonent\n");
+//    }
+// }
+
+
+//One Project in Fahrenheit to Celsiue And  Fahrenheit:
+
+// #include<stdio.h>
+// int main()
+// {
+//    int choice;
+//    float c,num;
+//    printf("Welcome To Our Website\n");
+//    printf("...............................\n");
+//    printf("1)Fahrenheit to Celsiue\n");
+//    printf("2)Celsiue And  Fahrenheit\n\n");
+//    printf("Enter Your Choice: ");
+//    scanf("%d",&choice);
+//    switch(choice)
+//    {
+//       case 1:
+//         printf("Your Fahrenheit to Celsiue Number: ");
+//         scanf("%f",&num);
+//         c = (num-32)/1.8;
+//         printf("Your Fahrenheit to Celsiue Number is: %f\n",c);
+//         break;
+
+//       case 2:
+//         printf("Your Celsiue And  Fahrenheit: ");
+//         scanf("%f",&num);
+//         c = (1.8*num)+32;
+//         printf("Your Celsiue And Fahrenheit is: %f\n",c);
+//         break;
+
+//       default:
+//         printf("Invalid Input\n");
+//    }
+// }
+
+
+//input (+,-,*,/);
+
+// #include<stdio.h>
+// int main()
+// {
+//    int num1,num2,r1;
+//    char a;
+//    printf("Welcome To Our Program\n");
+//    printf(".....................................\n");
+//    printf("Enter Your Operator(+,-,*,/): ");
+//    scanf("%c",&a);
+//    printf("Enter 2 digit: ");
+//    scanf("%d %d",&num1,&num2);
+   
+//    switch(a)
+//    {
+//       case '+':
+//         printf("\n\nYour Result: ");
+//         printf("...........................\n");
+//         printf("%d + %d = %d\n",num1,num2,num1+num2);
+//         break;
+
+//       case '-':
+//         printf("\n\nYour Result: ");
+//         printf("...........................\n");
+//         printf("%d - %d = %d\n",num1,num2,num1-num2);
+    
+//         break;
+      
+//       case '*':
+//         printf("\n\nYour Result: ");
+//         printf("...........................\n");
+//         printf("%d * %d = %d\n",num1,num2,num1*num2);
+//         break;
+
+//       case '/':
+//         printf("\n\nYour Result: ");
+//         printf("...........................\n");
+//         printf("%d - %d = %d\n",num1,num2,num1/num2);
+//         break;
+      
+//       default:
+//         printf("\nWrong Input\n");
+        
+        
+//    }
+// }
