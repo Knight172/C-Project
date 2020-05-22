@@ -46,7 +46,7 @@
 // }
 
 
-//vowel and consonant in c using switch  02
+//vowel and consonant in c using switch   02
 //part - 01
 
 // #include<stdio.h>
@@ -95,7 +95,7 @@
 // }
 
 
-//vowel and consonant in c using switch  02
+//vowel and consonant in c using switch    03
 //part - 02
 
 // #include<stdio.h>
@@ -125,7 +125,7 @@
 // }
 
 
-//One Project in Fahrenheit to Celsiue And  Fahrenheit:
+//One Project in Fahrenheit to Celsiue And  Fahrenheit:   04
 
 // #include<stdio.h>
 // int main()
@@ -160,7 +160,7 @@
 // }
 
 
-//input (+,-,*,/);
+//input (+,-,*,/);     05
 
 // #include<stdio.h>
 // int main()
