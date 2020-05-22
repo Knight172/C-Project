@@ -1,0 +1,143 @@
+//3 Number Big Number print: - 01
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num1,num2,num3;
+//     printf("Enter Your 3 Digit Number: ");
+//     scanf("%d %d %d",&num1,&num2,&num3);
+//     if(num1>num2 && num1>num3)
+//        printf("Your Big Number is : %d\n",num1);
+//     else if(num2>num1 && num2>num3)
+//        printf("Your Big Number is : %d\n",num2);
+//     else if(num3>num1 && num3>num2)
+//        printf("Your Big Number is : %d\n",num3);
+
+// }
+
+
+//3 Number Small Number print:  -02
+
+// #include<stdio.h>
+// int main()
+// {
+//     int Number1,Number2,Number3;
+//     printf("Enter 3 Digit Number: ");
+//     scanf("%d %d %d",&Number1,&Number2,&Number3);
+  
+//     if(Number1<Number2 && Number1<Number3)
+//        printf("Your Small Number is: %d\n",Number1);
+//     else if(Number2<Number1 && Number2<Number3)
+//        printf("Your Small Number is: %d\n",Number2);
+//     else if(Number3<Number1 && Number3<Number2)
+//        printf("Your Small Number is: %d\n",Number3);
+
+// }
+
+
+//Leapyear                        03
+
+// #include<stdio.h>
+// int main()
+// {
+//    int Year;
+//    printf("Enter Your Year: ");
+//    scanf("%d",&Year);
+//    if(Year%400==0)
+//      printf("Yes Leap Year %d\n",Year);
+//    else if(Year%4==0 && Year%100!=0)
+//      printf("Year Leap Year %d\n",Year);
+//    else
+//      printf("Not Leaf Year %d\n",Year);
+   
+   
+// }
+
+//Uppercase and lowercase letter check and print      04
+
+// #include<stdio.h>
+// int main()
+// {
+//    char letter;
+//    printf("Enter Your Letter: ");
+//    scanf("%c",&letter);
+//    if(letter>='A' && letter<='Z')
+//        printf("Capital Letter\n");
+//    else if(letter>='a' && letter<='z')
+//        printf("Small Letter\n");
+//    else
+//       printf("NOt a letter Please Try Again\n");
+   
+// }
+
+
+//vowel consonent letter check in c         05
+
+// #include<stdio.h>
+// int main()
+// {
+//    char letter;
+//    printf("Enter Your Leter : ");
+//    scanf("%c",&letter);
+//    if(letter=='a' || letter=='A' || letter=='e' || letter=='E' || letter == 'i' || letter == 'I' || letter == 'o' || letter == 'O' || letter == 'u' || letter == 'U')
+//        printf("Vowel\n");
+//    else 
+//        printf("Consonent\n");
+   
+// }
+
+
+//pass and failed in c                  06
+
+// #include<stdio.h>
+// int main()
+// {
+//    int num;
+//    printf("Enter Your Number: ");
+//    scanf("%d",&num);
+//    if(num>=33)
+//       printf("Passed\n");
+//    else
+//       printf("Failed\n");
+   
+// }
+
+
+
+
+//Grade print               07
+
+// #include<stdio.h>
+// int main()
+// {
+//    int num;
+//    printf("Enter Your Number: ");
+//    scanf("%d",&num);
+//    if(num>100 || num<0)
+//      printf("Invalid\n");
+//    else if(num>=80 && num<=100)
+//      printf("A+\n");
+//    else if(num>=70 && num<=79)
+//      printf("A\n");
+//    else if(num>=60 && num<=69)
+//      printf("A-\n");
+//    else if(num>=50 && num<=59)
+//      printf("B\n");
+//    else if(num>=40 && num<=49)
+//      printf("C\n");
+//    else if(num>=33 && num<=39)
+//      printf("D\n");
+     
+// }
+
+
+//Global veriable print                 08
+
+// #include<stdio.h>
+// int a = 10;
+// int main()
+// {
+//    printf("Your Number a is: %d",a);
+// }
+
+
