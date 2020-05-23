@@ -1,0 +1,50 @@
+//Condisonal operator in c programing:  01
+//Condisonal operator:  /  ? :
+
+// #include<stdio.h>                  
+// int main()
+// {
+//         int num1,num2,result;
+//         printf("Enter Your 2 Digit Number: ");
+//         scanf("%d %d",&num1,&num2);
+//         result = num1>num2  ?  num1 : num2;
+//         printf("Your Result Is: %d\n",result); 
+                
+// }
+
+
+
+//  Bitwise operator in c:     02
+
+/* Bitwise Operator     Meaning 
+-------------------------------------------------
+    |      &      |       Bitwise AND           |
+    ---------------------------------------------
+    |      |      |       Bitwise OR            | 
+    ---------------------------------------------
+    |      ^      |       Bitwise ExOR          |
+    ---------------------------------------------
+    |      >>     |       Right shift           |
+    ---------------------------------------------  
+    |      <<     |       Left shift            |
+    ---------------------------------------------
+    |      ~      |       Bitwise NOT           |
+    ----------------------------------------------
+*/
+
+#include<stdio.h>
+int main()
+{
+        int a = 50, b = 150, d;
+
+        d = a & b;       //a&b  binary gon (*)
+           printf("Your Bitwise And Result: %d\n",d);
+        
+        d = a | b;      //a||b binray Jok (+)
+          printf("Your Bitwise OR Result: %d\n",d);
+        
+        d = a ^ b;      //a^b same binary takle output o same hobe
+          printf("Your Bitwise ExoR Result: %d\n",d);
+        
+        
+}
