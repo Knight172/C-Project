@@ -1,0 +1,182 @@
+//for loop in c        01
+
+// #include<stdio.h>
+// int main()
+// {
+//     int m;
+//     for(m=1; m<=10; m++)
+//         {
+//         printf("Hello World\n");
+//         printf("%d\n",m);
+//         } 
+// }
+
+
+//for Jor number in c        02
+
+// #include<stdio.h>
+// int main()
+// {
+//         int a;
+//         for(a=2; a<=100; a=a+2)
+//          {
+//            printf("Your Jor Number is : ");
+//            printf("%d\n",a);
+//          }
+
+// }
+
+
+//for bijor Number in c     03
+
+// #include<stdio.h>
+// int main()
+// {
+//         int a;
+//         for(a = 1; a<=100; a=a+2)
+//         {
+//                 printf("Your Bijor Number is : ");
+//                 printf("%d\n",a);
+//         }
+// }
+
+
+//While loop print in c     04
+
+// #include<stdio.h>
+// int main()
+// {
+//      int a=1;
+//      while(a<=100)
+//      {
+//              printf("%d\n",a);
+//              a++;
+//      }       
+// }
+
+
+//while loop jor Number print in  c   05
+
+// #include<stdio.h>
+// int main()
+// {
+//         int a=2;
+//         while(a<=100)
+//         {
+//                 printf("Your Jor Number : ");
+//                 printf("%d\n",a);
+//                 a = a+2;
+//         }
+// }
+
+
+//while loop bijor Number print in  c   06
+
+// #include<stdio.h>
+// int main()
+// {
+//         int a=1;
+//         while(a<=100)
+//         {
+//                 printf("Your Bijor Number is: ");
+//                 printf("%d\n",a);
+//                 a = a + 2;
+//         }
+// }
+
+
+//do loop  print in  c   07
+
+// #include<stdio.h>
+// int main()
+// {
+//         int a=1;
+//         do
+//         {
+//                 printf("%d\n",a);
+//                 a++;
+
+//         }while(a<=100);
+// }
+
+
+//do loop  jor number print in  c   08
+
+// #include<stdio.h>
+// int main()
+// {
+//         int a=2;
+//         do 
+//         {
+//                 printf("Your Jor Number: ");
+//                 printf("%d\n",a);
+//                 a = a+2;
+//         }while(a<=100);
+
+// }
+
+
+//do loop  bijor number print in  c   09
+
+// #include<stdio.h>
+// int main()
+// {
+//         int a=1;
+//         do 
+//         {
+//                 printf("Your Bijor Number: ");
+//                 printf("%d\n",a);
+//                 a = a+2;
+//         }while(a<=100);
+// }
+
+
+//break and continue statement in c  10
+
+// #include<stdio.h>
+// int main()
+// {
+//   int i;
+//   for(i=0; i<=100; i++)
+//   {
+//     if(i%3==0)
+//       continue;
+//     printf("%d\n",i);
+//     if(i==10)
+//       break;
+//   }
+
+// }
+
+
+//goto statement in c      11
+
+// #include<stdio.h>
+// int main()
+// {
+//   again:  //goto statement start in c 
+//   printf("Hello World\n");
+//   goto again;
+
+// }
+
+
+//Number value print in c 12  project
+
+// #include<stdio.h>
+// int main()
+// {
+//   while(1){
+//   int a,b;
+//   char new;
+// tul:
+//   printf("Enter Your Number: ");
+//   scanf("%d",&a);
+//   {
+//   for(b=1; b<=10; b++)
+//     printf("%d X %d = %d\n",a,b,a*b);
+//   }
+// }
+// }
+
+
