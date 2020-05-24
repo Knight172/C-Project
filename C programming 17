@@ -1,0 +1,93 @@
+//Print Factorial Number in c                 01
+
+// #include<stdio.h>
+// int main()
+// {
+//     int user,e,fact=1;
+//         printf("Enter Your User Number: ");
+//         scanf("%d",&user);
+
+//     for(e=1; e<=user; e++)
+//        fact = fact * e;
+//        printf("Your Factorial Number: %d\n",fact);
+// }
+
+
+//prime number check in c                      02
+
+// #include<stdio.h>
+// int main()
+// {
+//     int user,I,count=0;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&user);
+    
+//     for(I=2; I<user; I++)
+//     {
+//        if(user%I==0)
+//          count++;
+//          break;
+//     }
+
+//     if(count==0)
+//       printf("Prime Number\n");
+//     else
+//        printf("Not a prime Number\n");
+// }
+
+
+//GCD And LCM in C programming                   03
+
+// #include<stdio.h>
+// int main()
+// {
+//     int user,a,b,num1,num2,raj,gcd,lcd;
+//     printf("Enter Your 2 Number: ");
+//     scanf("%d %d",&num1,&num2);
+
+//     a = num1;
+//     b = num2;
+
+//     while(b!=0)
+//     {
+//      raj = a%b;
+//      a = b;
+//      b = raj;
+//     }
+    
+//     gcd = a;
+//     lcd = (num1*num2)/gcd;
+
+//     printf("Your GCD : %d\n",gcd);
+//     printf("Your LCD : %d\n",lcd);
+     
+// }
+
+
+//sum of digits in c                      04
+
+// #include<stdio.h>
+// int main()
+// {
+//     int num,temp,r,sum=0;
+//     printf("Enter Your Number : ");
+//     scanf("%d",&num);
+    
+//     temp = num;
+
+//     while(temp!=0)
+//     {
+//        r = temp % 10;
+//        sum = sum + r;
+//        temp = temp / 10;
+//     }
+//     printf("Your Value %d",sum);
+
+
+     
+
+// }
+
+
+
+
