@@ -1,0 +1,473 @@
+//print Pattern in c programing  01
+//part - 01
+/*
+1
+1 2
+1 2 3
+1 2 3 4
+*/
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,s,m;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+
+//     for(s=1; s<=a; s++)
+//     {
+//      for(m=1; m<=s; m++)
+//      {
+//          printf("%d ",m);
+//      }   
+//      printf("\n");
+//     }
+//     printf("\n");
+// }
+
+
+//print Pattern in c programing  02
+//part - 01
+
+// #include<stdio.h> 
+// int main()
+// {
+//     int a,i,m;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(m=1; m<=i; m++)
+//         {
+//             printf("%d ",m);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 02
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,m;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(m=1; m<=i; m++)
+//         {
+//             printf("%d ",i);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+//part - 03
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,u;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(u=1; u<=i; u++)
+//         {
+//             printf("%d ",u%2);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 04
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,t;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//       for(t=1; t<=i; t++)
+//       {
+//           printf("%d ",i%2);
+//       }
+//       printf("\n");
+//     }
+// }
+
+
+//part - 05
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,m; 
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(m=1; m<=i; m++)
+//         {
+//             printf("%c ",m+64);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 06
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,m,i;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(m=1; m<=i; m++)
+//         {
+//             printf("%c ",i+64);
+//         }
+//         printf("\n");
+//     }
+    
+// }
+
+//part - 07
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,u;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(u=1; u<=i; u++)
+//         {
+//             printf("%c ",u+96);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 08
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,u; 
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(u=1; u<=i; u++)
+//         {
+//             printf("%c ",i+96);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 09
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,u; 
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(u=1; u<=i; u++)
+//         {
+//             printf("* ");
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 10
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,m,i;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(m=1; m<=i; m++)
+//         {
+//             printf("# ");
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+//print Pattern reverse in c programing  03
+//part - 01
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,w;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=a; i>=1; i--)
+//     {
+//         for(w=1; w<=i; w++)
+//         {
+//             printf("%d ",w);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 02
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,u,i;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=a; i>=1; i--)
+//     {
+//         for(u=1; u<=i; u++)
+//         {
+//             printf("%d ",i);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+//part - 03
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,j; 
+//     printf("Enter Your Name : ");
+//     scanf("%d",&a);
+//     for(i=a; i>=1; i--)
+//     {
+//         for(j=1; j<=i; j++)
+//         {
+//             printf("%d ",j%2);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 04
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,jan; 
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=a; i>=1; i--)
+//     {
+//         for(jan=1; jan<=i; jan++)
+//         {
+//             printf("%d",i%2);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 05
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,k,i; 
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=a; i>=1; i--)
+//     {
+//         for(k=1; k<=i; k++)
+//         {
+//             printf("%c ",k+64);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+//part - 06
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,x;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=a; i>=1; i--)
+//     {
+//         for(x=1; x<=i; x++)
+//         {
+//             printf("%c ",i+64);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+//print Pattern in c  04
+//part - 01
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,j,m,n;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(j=1; j<=i; j++)
+//         {
+//             printf("%d ",j);
+//         }
+//         printf("\n");
+//     }
+
+//     for(m=a-1; m>=1; m--)
+//     {
+//         for(n=1; n<=m; n++)
+//         {
+//             printf("%d ",n);
+//         }
+//         printf("\n");
+//     }
+    
+// }
+
+
+//print Pattern in c  05
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,z,m,n;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(z=1; z<=i; z++)
+//         {
+//         printf("* ");
+//         }
+//         printf("\n");
+//     }
+//     for(m=a-1; m>=1; m--)
+//     {
+//         for(n=1; n<=m; n++)
+//         {
+//             printf("* ");
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+//print pattern in c   06
+//part - 01
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,u,m;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(u=1; u<=a-i; u++)
+//         {
+//             printf(" ",u);
+//         }
+//         for(m=1; m<=i; m++)
+//         {
+//             printf("%d",m);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 02
+
+// #include<stdio.h>
+// int main()
+// {
+//     int i,m,n,a;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(m=1; m<=a-i; m++)
+//         {
+//             printf(" ",m);
+//         }
+//         for(n=1; n<=i; n++)
+//         {
+//             printf("%d",i);
+//         }
+//         printf("\n");
+//     }
+
+// }
+
+//part - 03
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,e,o; 
+//     printf("Enter Your Number ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(e=1; e<=a-i; e++)
+//         {
+//             printf(" ",e);
+//         }
+//         for(o=1; o<=i; o++)
+//         {
+//             printf("%d",o);
+//         }
+//         printf("\n");
+//     }
+// }
+
+//part - 04
+
+// #include<stdio.h>
+// int main()
+// {
+//     int a,i,m,n;
+//     printf("Enter Your Number: ");
+//     scanf("%d",&a);
+//     for(i=1; i<=a; i++)
+//     {
+//         for(m=1; m<=a-i; m++)
+//         {
+//             printf(" ",m);
+//         }
+//         for(n=1; n<=i; n++)
+//         {
+//             printf("%c",n+64);
+//         }
+//         printf("\n");
+//     }
+// }
+
